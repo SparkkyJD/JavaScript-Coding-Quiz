@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="./Assets/style.css">
+</head>
+<body>
+  <main id="start-card">
+    <h1>JavaScript Quiz</h1>
+    <p>Test your JavaScript knowledge!</p>
+    <button id="start-button">Start Quiz</button>
+    <button id="highscores-button">View Highscores</button>
+  </main>
+
+  <section id="quiz-card" class="hidden">
+    <h2 id="question"></h2>
+    <aside id="options-card">
+      <button class="option-button"></button>
+      <button class="option-button"></button>
+      <button class="option-button"></button>
+      <button class="option-button"></button>
+    </aside>
+    <h3 id="answer-response"></h3>
+    <p id="clock">Time: <span id="time-remaining"></span></p>
+  </section>
+
+  <section id="end-card" class="hidden">
+    <h2>All done!</h2>
+    <p>Your final score is <span id="results"></span>.</p>
+    <label>Enter initials:</label>
+    <input type="text" id="initials">
+    <button id="submit-button">Submit</button>
+  </section>
+    <script src= "./Assets/script.js"></script>
+</body>
+</html>
+
+
+

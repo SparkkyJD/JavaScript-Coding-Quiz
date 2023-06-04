@@ -1,0 +1,93 @@
+/* style.css */
+body {
+  text-align: center;
+  align-content: center;
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  color: #333;
+  font-size: 32px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-top: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes flashRed {
+  0% { color: inherit; }
+  50% { color: red; }
+  100% { color: inherit; }
+}
+
+#clock{
+  font-size: 20px;
+  animation: flashRed 1s infinite;
+  font-weight: bold;
+}
+
+#start-card,
+#end-card,
+#quiz-card,
+#highscores-card {
+  background-color: rgb(225, 160, 39);
+  margin: 20px;
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#options-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: inherit;
+}
+
+.option-button {
+  margin-top: 10px;
+  width: 300px;
+}
+
+#question-text {
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  #start-container,
+  #end-container,
+  #quiz-container,
+  #highscores-list {
+    max-width: 800px;
+  }
+}
