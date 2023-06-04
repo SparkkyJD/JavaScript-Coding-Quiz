@@ -3,7 +3,8 @@ Deployed app: https://sparkkyjd.github.io/coding-quiz/
 
 ![License: MIT License](https://img.shields.io/badge/License-MIT%20License-brightgreen.svg)
 
-![Screenshot (32)](https://github.com/SparkkyJD/coding-quiz/assets/127361245/6d619457-efbb-4fae-8cf3-1ade91a0accb)
+![Screenshot (32)](https://github.com/SparkkyJD/JavaScript-Coding-Quiz/assets/127361245/3c166b70-f405-4e57-ace4-b356a1a90e6a)
+
 
 ## Description
 An application that will test you on the fundamentals of javascript
