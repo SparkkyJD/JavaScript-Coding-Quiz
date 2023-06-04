@@ -1,5 +1,5 @@
 # JavaScript Coding Quiz
-Deployed app: https://sparkkyjd.github.io/coding-quiz/
+Deployed app: (https://sparkkyjd.github.io/JavaScript-Coding-Quiz/)
 
 ![License: MIT License](https://img.shields.io/badge/License-MIT%20License-brightgreen.svg)
 
